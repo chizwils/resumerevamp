@@ -39,10 +39,8 @@ nav{
     font-size: 0.99rem;
     font-family: monospace;
     position: relative;
-     height: 3em;
-    
-    
-    
+    height: 3em;
+ 
 }
 .menu-item a:hover{
     background: none;

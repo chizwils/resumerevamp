@@ -1,0 +1,72 @@
+@font-face{
+    font-family: avenir;
+    src: url(font/Avenir/AvenirLTStd-Light.otf)
+}
+
+h1,h2, h3{
+    color: black;
+    font-family: monospace!important;
+}
+.logo{
+    font-size: 1.2em!important;
+    color: #242424 !important;
+    font-weight: bolder;
+    font-family: monospace!important;
+}
+.introduction{
+    margin: 5rem;
+    padding: 1em;
+    
+        
+    
+}
+.introduction:after{
+    content: "";
+    display: block;
+    
+    width: 30%;
+    padding-bottom: 20px;
+    border-bottom: .3em solid black;
+}
+nav{
+    box-shadow: none;
+    
+}
+.menu-item{
+}
+.menu-item a {
+    color: #242424;
+    font-size: 0.99rem;
+    font-family: monospace;
+    position: relative;
+     height: 3em;
+    
+    
+    
+}
+.menu-item a:hover{
+    background: none;
+}
+.menu-item a:before{
+    content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.menu-item a:hover:before{
+     visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+body{
+    background-color: #FBFBFB;
+    
+}

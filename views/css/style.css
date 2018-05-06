@@ -1,17 +1,37 @@
-@font-face{
-    font-family: avenir;
-    src: url(font/Avenir/AvenirLTStd-Light.otf)
-}
 
+header, .section{
+    min-height: 100vh;
+    position: relative;
+    
+}
+.section{
+    font-family: "Work Sans", sans-serif!important;
+}
+.section .background{
+    margin: auto 0;
+}
+.section-title{
+    font-size: 5rem;
+    font-family: "Work Sans", sans-serif!important;
+}
+.section-content{
+    position: relative;
+    top: 30vh;
+    letter-spacing: normal;
+    
+}
 h1,h2, h3{
     color: black;
     font-family: monospace!important;
 }
 .logo{
-    font-size: 1.2em!important;
+    font-size: 15px!important;
     color: #242424 !important;
-    font-weight: bolder;
-    font-family: monospace!important;
+    font-weight: 200;
+    letter-spacing: normal;
+    font-family: "Work Sans", sans-serif!important;
+    line-height: 50px;
+    
 }
 .introduction{
     margin: 5rem;
@@ -37,9 +57,11 @@ nav{
 .menu-item a {
     color: #242424;
     font-size: 0.99rem;
-    font-family: monospace;
+     font-family: "Work Sans", sans-serif;
+    font-weight: 200;
     position: relative;
     height: 3em;
+    letter-spacing: 0.07rem;
  
 }
 .menu-item a:hover{
@@ -64,7 +86,11 @@ nav{
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
 body{
     background-color: #FBFBFB;
+    
+}
+.footer{
     
 }

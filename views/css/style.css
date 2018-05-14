@@ -19,7 +19,10 @@ header, .section{
    
     
 }
-
+p{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+}
 .section{
     font-family: "Work Sans", sans-serif!important;
 }

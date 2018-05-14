@@ -1,7 +1,22 @@
+html,body{
+    height: 100%;
+}
+
+.contain{
+    margin-left: 2rem;
+     margin-right: 2rem; 
+    height: auto;
+    
+
+}
 
 header, .section{
+    
     min-height: 100vh;
+    height:130vh;
+    
     position: relative;
+   
     
 }
 
@@ -14,6 +29,7 @@ header, .section{
 .section-title{
     font-size: 5rem;
     font-family: "Work Sans", sans-serif!important;
+    font-weight: 900;
 }
 .section-content{
     position: relative;
@@ -21,9 +37,11 @@ header, .section{
     letter-spacing: normal;
     
 }
-.skills-category-label{
-    text-transform: capitalize!important;
-    font-size: 1rem;
+.skills-category-label, .project-name a{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.7rem;
+    text-decoration: none;
 }
 h1,h2, h3{
     color: black;
@@ -61,6 +79,14 @@ h1,h2, h3{
     font-weight: 900;
     letter-spacing: 0.2rem;
     
+}
+.intro_hello{
+    margin-bottom: 1em;
+}
+.intro{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 2.5rem;
 }
 nav{
     box-shadow: none;
@@ -105,7 +131,25 @@ body{
     background-color: #FBFBFB;
     
 }
-
-.footer{
-    
+footer{
+   margin: 1rem;
 }
+
+.footer-links a{
+    margin: 1rem;
+    color: black;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
